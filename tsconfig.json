@@ -18,7 +18,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "outDir": "./build",
+    "typeRoots": [
+      "./node_modules/@types", // Include the default @types folder
+      "./@types/components" // Include your custom types folder
+    ]
   },
   "include": [
     "src"
