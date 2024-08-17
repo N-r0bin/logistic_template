@@ -169,7 +169,7 @@ export default function MiniNavBar() {
             </ListItemButton>
           </ListItem>
 
-          {['Müşteriler', 'Araçlar', 'Siparişler', 'Firmalar'].map((text, index) => (
+          {['Müşteriler', 'Araçlar'].map((text, index) => (
             <ListItem key={text} disablePadding >
               <ListItemButton
                 selected={selectedIndex === index}
@@ -205,7 +205,7 @@ export default function MiniNavBar() {
 
         <Divider />
 
-        <Box sx={{ pt: 65, }}>
+        <Box sx={{ pt: 75, }}>
 
           {open && (
             <Box>
