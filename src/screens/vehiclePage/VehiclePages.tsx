@@ -7,8 +7,8 @@ interface VehiclePageProps {
 }
 
 const mockData = [
-  { id: 1, vehicleType: 'ÇEKİCİ', plateNumber: '22M121', brand: 'BRAND 1', model: 'MODEL 1', status: 'Boş/Hazır', ownership: 'Özmal' },
-  { id: 2, vehicleType: 'ÇEKİCİ', plateNumber: '22M222', brand: 'BRAND 2', model: 'MODEL 2', status: 'Boş/Hazır', ownership: 'Yabancı' },
+  { id: 1, vehicleType: 'Type1', plateNumber: '22M121', brand: 'BRAND 1', model: 'MODEL 1', status: 'Boş/Hazır', ownership: 'Özmal' },
+  { id: 2, vehicleType: 'Type2', plateNumber: '22M222', brand: 'BRAND 2', model: 'MODEL 2', status: 'Boş/Hazır', ownership: 'Yabancı' },
 ];
 
 const TABLE_HEAD = [
