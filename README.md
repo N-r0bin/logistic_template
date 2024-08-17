@@ -16,5 +16,7 @@ You will also see any lint errors in the console.
 <p float="center">
   <img src="screenshots/login.png" height="400" width="400">
   <img src="screenshots/forgot-pass.png" height="400" width="400">
+  <img src="screenshots/profile-screen.png" height="400" width="400">
 </p>
 
+<a href="https://drive.google.com/file/d/1KgtlGxQDzS__DXgkkac-MjtCSE4xi-wc/view">Demo Video</a>
