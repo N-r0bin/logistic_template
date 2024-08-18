@@ -4,19 +4,30 @@ A simple template for logistic companies created using react, redux, and typescr
 
 <h2>Features:</h2>
 
-- Nav-bar that 
+- Side navigation bar triggered by user interaction.
 
-- Responsive design for an optimal experience across devices 
+- Designed tabs and tables for improved data presentation.
 
-- Upload photo
+- Sorting: Columns can be sorted in ascending or descending order.
+
+- Custom TypeScript Types: Defined for better type safety and code management.
+
+- Responsive Design: Ensures an optimal experience across various devices.
+
+- Photo Upload: Allows users to upload photos from their device.
 
 <h2>Technologies Used: </h2>
 
 - <b>React:</b> For building the user interface.
 
-- <b>Material-mui:</b> For responsive design and styling.
+- <b>Material-UI:</b> For responsive design and styling.
 
-- <b>Redux:</b> Managing app state.
+- <b>React Router:</b> For page navigation.
+
+- <b>Redux:</b> For state management.
+
+<h2>Current Status:</h2>
+In progress: The application is currently under development. Future updates will include additional features and refinements.
 
 ## Available Scripts
 
@@ -32,9 +43,9 @@ You will also see any lint errors in the console.
 
 ## Screenshots:
 <p float="center">
-  <img src="screenshots/login.png" >
-  <img src="screenshots/forgot-pass.png" >
-  <img src="screenshots/profile-screen.png" >
+  <img src="screenshots/login.png" alt="Login Screen" width="500" />
+  <img src="screenshots/forgot-pass.png" alt="Forgot Password Screen" width="500" />
+  <img src="screenshots/profile-screen.png" alt="Profile Screen" width="500" />
 </p>
 
 <a href="https://drive.google.com/file/d/1KgtlGxQDzS__DXgkkac-MjtCSE4xi-wc/view">Demo Video</a>
