@@ -1,7 +1,6 @@
 import { visuallyHidden } from '@mui/utils';
 import { Box, TableCell, TableHead, TableRow, TableSortLabel } from '@mui/material';
 
-// ----------------------------------------------------------------------
 
 type SortingSelectingHeadProps = {
   orderBy: string;

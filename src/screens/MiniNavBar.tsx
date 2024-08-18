@@ -21,8 +21,6 @@ import { Outlet, useNavigate } from "react-router-dom";
 
 const drawerWidth = 240;
 
-
-
 const openedMixin = (theme: Theme): CSSObject => ({
   width: drawerWidth,
   transition: theme.transitions.create('width', {
@@ -43,8 +41,6 @@ const closedMixin = (theme: Theme): CSSObject => ({
     width: `calc(${theme.spacing(8)} + 1px)`,
   },
 });
-
-
 
 const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' })(
   ({ theme, open }) => ({
@@ -81,8 +77,6 @@ const routePaths = [
   '/',
   '/customers',
   '/vehicles',
-  // '/orders',
-  // '/companies'
 ];
 
 
@@ -114,7 +108,6 @@ export default function MiniNavBar() {
     }
   };
 
-
   const navigate = useNavigate();
   const signOutNav = () => {
     navigate("/login")
@@ -123,10 +116,8 @@ export default function MiniNavBar() {
     navigate("/profile")
   };
 
-
   return (
     <Box sx={{ display: 'flex', fontSize: '1rem' }}>
-
 
       <Drawer variant="permanent" open={open} sx={{ fontSize: '1rem' }}>
 
@@ -141,11 +132,7 @@ export default function MiniNavBar() {
           <Box sx={{ display: "flex", flexDirection: "column", gap: 3.5 }}>
 
           </Box>
-
-
-
         </Box>
-
 
         <List>
           <ListItem disablePadding>
@@ -178,9 +165,7 @@ export default function MiniNavBar() {
                   color: selectedIndex === index + 1 ? 'orange' : 'inherit',
                   '& .MuiSvgIcon-root': {
                     color: selectedIndex === index + 1 ? 'orange' : 'inherit',
-
                   },
-
                 }}
               >
 
@@ -209,7 +194,6 @@ export default function MiniNavBar() {
 
           {open && (
             <Box>
-
               <Box sx={{ height: '5px', width: '10px', minWidth: 'unset', bgcolor: 'inherit', }}>
                 <Button
                   sx={{
@@ -228,7 +212,6 @@ export default function MiniNavBar() {
               <Box >
                 <Button
                   sx={{
-
                     color: 'grey',
                     fontSize: 'small',
                     textTransform: 'inherit',
@@ -247,9 +230,6 @@ export default function MiniNavBar() {
                   <LogoutIcon />
                   <Typography>Çıkış Yap</Typography>
                 </Button>
-
-
-
               </Box>
             </Box>
           )}
@@ -265,7 +245,6 @@ export default function MiniNavBar() {
 
                 <Button
                   sx={{
-
                     color: 'grey',
                     fontSize: 'small',
                     textTransform: 'inherit',
@@ -307,16 +286,9 @@ export default function MiniNavBar() {
 
             </Box>
           )}
-
         </Box>
-
-
       </Drawer>
-
-
       <Outlet />
-
-
 
     </Box>
   );
